@@ -75,8 +75,6 @@ Before booting your Pi, you'll need to connect the camera.
 
 1. Connect the Pi to the button as shown in the diagram below:
 
-    ![](images/picamera-gpio-setup.png)
-
 1. Import the `RPi.GPIO` module at the top of the code, set up GPIO pin 17, and change the `sleep` line to use `GPIO.wait_for_edge` like so:
 
     ```python
