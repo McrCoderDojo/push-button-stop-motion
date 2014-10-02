@@ -166,4 +166,3 @@ Before booting your Pi, you'll need to connect the camera.
     ```
 
 1. Optionally, you can adjust the frame rate by editing the rendering command. Try changing `-r 10` (10 frames per second) to another number.
-1. You can also change the filename of the rendered video to stop it from overwriting your first attempt. To do this, change `animation.mp4` to something else.
